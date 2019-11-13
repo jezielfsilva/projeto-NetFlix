@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .main-container {
     width: 100vw;
     height: auto;
     min-height: 100vh;
-    background-image: url(https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/20/105406038-1534773417492gettyimages-1005524814.1910x1000.jpg);
-    background-size: cover;
+    background-image: url(https://img.olhardigital.com.br/uploads/acervo_imagens/2019/03/r16x9/20190314061608_1200_675_-_netflix.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #363636;
 }
 
 .container-navigation {
@@ -149,11 +155,39 @@ a {
 #series {
     width: 100vw;
     height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-series {
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-two {
+    font-size: 3em;
+    letter-spacing: 0.04em;
+    color: #F5FFFA;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text-two {
+    font-size: 1.7em;
+    letter-spacing: 0.02em;
+    color: #F5FFFA;
+    font-family: 'Rubik', sans-serif;
 }
 
 #movies {
     width: 100vw;
     height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #recently-added {
