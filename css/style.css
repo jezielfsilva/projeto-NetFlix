@@ -145,3 +145,28 @@ a {
     width: 40vw;
     height: 20vh;
 }
+
+#series {
+    width: 100vw;
+    height: 90vh;
+}
+
+#movies {
+    width: 100vw;
+    height: 90vh;
+}
+
+#recently-added {
+    width: 100vw;
+    height: 90vh;
+}
+
+#my-list {
+    width: 100vw;
+    height: 90vh;
+}
+
+#childish {
+    width: 100vw;
+    height: 90vh;
+}
