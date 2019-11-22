@@ -98,7 +98,7 @@ a {
 
 #start {
     width: 99vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -154,8 +154,7 @@ a {
 
 #series {
     width: 99vw;
-    height: 90vh;
-    margin-top: 100px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -185,7 +184,7 @@ a {
 
 #movies {
     width: 99vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -212,11 +211,11 @@ a {
 
 #recently-added {
     width: 99vw;
-    height: 90vh;
-    margin-top: 100px;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .box-Photograph-one, .box-Photograph-two, .box-Photograph-tree, .box-Photograph-four, .box-Photograph-five, .box-Photograph-six {
@@ -261,11 +260,11 @@ a {
 
 #my-list {
     width: 99vw;
-    height: 90vh;
-    margin-top: 100px;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .box-list {
@@ -277,40 +276,12 @@ a {
     align-items: center;
 }
 
-.photograph-list-one {
+.photograph-list-one, .photograph-list-two, .photograph-list-tree, .photograph-list-four, .photograph-list-five, .photograph-list-six, .photograph-list-seven, .photograph-list-eight {
     height: 120%;
 }
 
-.photograph-list-two {
-    height: 115%;
-}
-
-.photograph-list-tree {
-    height: 125%;
-}
-
-.photograph-list-four {
-    height: 123%;
-}
-
-.photograph-list-five {
-    height: 130%;
-}
-
-.photograph-list-six {
-    height: 101%;
-}
-
-.photograph-list-seven {
-    height: 129%;
-}
-
-.photograph-list-eight {
-    height: 132%;
-}
-
 .text-five {
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 0.02em;
     color: #F5FFFA;
     font-family: 'Rubik', sans-serif;
@@ -318,9 +289,15 @@ a {
 
 #childish {
     width: 99vw;
-    height: 90vh;
-    margin-top: 100px;
+    height: 100vh;
     background-image: url(https://images3.alphacoders.com/900/900377.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-object {
+    box-shadow: 1px 1px 2px 1px #363636;
 }
