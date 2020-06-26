@@ -116,7 +116,7 @@ a {
     color: #F5FFFA;
     font-size: 4em;
     font-family: 'Rubik', sans-serif;
-    text-shadow: 3px 1px 1px #4F4F4F;
+    text-shadow: 2px 1px 1px #000000;
 }
 
 .text {
@@ -124,7 +124,7 @@ a {
     color: #FF4500;
     font-family: 'Rubik', sans-serif;
     font-size: 2em;
-    text-shadow: 3px 1px 1px #4F4F4F;
+    text-shadow: 1px 1px 1px #ffffff;
 }
 
 .box-buttons {
